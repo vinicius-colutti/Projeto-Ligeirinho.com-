@@ -1,0 +1,319 @@
+*{
+	margin:0;
+	
+}
+
+
+body{
+	
+	background-color:#fff;
+	background-attachment:fixed;
+
+}
+#div_principal_header{	
+	height:130px;
+	width:1700px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+
+header{
+
+	width:100%;
+	background-color:#fff;
+	
+}
+#logo_fale{
+	
+	height:120px;
+	width:250px;
+	float:left;	
+	margin-top:10px;
+	margin-left:60px;	
+	background-image:url(../imagens/logo.png);
+	position:absolute;
+	 -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+	
+	
+}
+
+#logo:before{
+	 content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:url(../imagens/logo_hover.png);
+  border-radius:28px;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+	
+	
+	
+}
+#logo:hover, #logo:focus, #logo:active{
+	
+	color: white;
+	
+}
+
+#logo:hover:before, #logo:focus:before, #logo:active:before{
+	
+	 -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+	
+	
+}
+
+#div_login{
+	
+	height:130px;
+	width:460px;
+	float:left;
+	margin-left:1150px;
+	position:absolute;
+	
+
+}
+.input_campos{
+	
+	margin-top:64px;
+	margin-left:5px;
+	border:0;
+	width:100px;
+
+}
+
+
+#footer{
+	width:100%;
+	height:250px;
+	background-color:#000;
+	float:left;
+
+
+}
+#div_principal_footer{
+	width:1500px;
+	height:250px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../imagens/fundo_footer.jpg);
+
+
+}
+/*FORMATAÇÃO DO FALE CONOSCO*/
+.input, textarea { 
+	font: 14px/24px Helvetica, Arial, sans-serif; 
+	color: #666; 
+	
+}
+.input { 
+	width: 60% 
+}
+form { 
+	margin: 30px 0 0 0 
+}
+.input, textarea { 
+	background: none repeat scroll 0 0 #FFFFFF; 
+	border: 1px solid #C9C9C9; 
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #F5F5F6, 5px 5px 0 0 #F5F5F6, 5px 0 0 0 #F5F5F6, 0 5px 0 0 #F5F5F6, 5px -5px 0 0 #F5F5F6, -5px 5px 0 0 #F5F5F6; 
+	color: #545658; 
+	padding: 8px; 
+	font-size: 14px; 
+	border-radius: 2px 2px 2px 2px; 
+}
+#botao_salvar { 
+	background: url("../images/submit_bg.gif") repeat-x scroll 0 0 transparent; 
+	border: 1px solid #B7D6DF; 
+	border-radius: 2px 2px 2px 2px; 
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+	color: #437182; 
+	cursor: pointer; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+	font-size: 14px;
+	font-weight: bold; 
+	height: auto; 
+	padding: 6px 10px; 
+	text-shadow: 0 1px 0 #FFFFFF; 
+	width: auto; 
+}
+#botao_salvar:hover { 
+	background: url("../images/submit_hover_bg.gif") repeat-x scroll 0 0 transparent; 
+	border: 1px solid #9FBAC0; 
+	cursor: pointer; 
+}
+a { 
+	color: #88BBC8; 
+	text-decoration: none; 
+}
+a:hover { 
+	color: #f26525 
+}
+#div_principal_fale_conosco { 
+	width: 510px; 
+	margin: 0 auto; 
+	margin-top: 50px; 
+	margin-bottom: 50px; 
+	background-color:#fff; 
+	padding:40px; 
+	border: 10px solid #f2f2f2; 
+	-webkit-box-shadow: 0px 0px 16px 14px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 16px 14px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 16px 14px rgba(0,0,0,0.75);
+}
+
+#form_salvar p { 
+	margin-bottom: 20px 
+}
+textarea { 
+	width: 95%; 
+	margin: 0 0 0 2px;
+	resize:none;	
+}
+
+
+
+form label { 
+	display: block; 
+	margin-bottom: 5px; 
+	font-weight: bold; 
+	font-size: 12px; 
+}
+
+
+/**
+  * Definir a largura e centraliza os itens da sanfona
+  */
+  .accordions{
+      width:600px;
+      margin:0 auto;
+      border:1px solid #ccc;
+	  background-color:#fff;
+	  
+  }
+  /**
+  * Oculta o input
+  */
+  .accordion-item input{display:none;}
+ 
+  /**
+   * Aqui configura o label
+   * que será parte clicável
+  **/
+  .accordion-item label{
+      display:block;
+      border:1px solid #ccc;
+      background:#e5e5e5;
+      cursor:pointer;
+  }
+ 
+  /**
+  * Aqui o elemento que vai o conteúdo.
+  * Define o height:0, para aplicarmos o efeito
+  * colocamos overflow:hidden não mostrar o último item
+  * O transition o tipo de efeito que queremos
+  */
+  .accordion-content{
+      height: 0px;
+      overflow: hidden;
+      -webkit-transition: height 0.3s ease-in-out;
+      -moz-transition: height 0.3s ease-in-out;
+      -o-transition: height 0.3s ease-in-out;
+      -ms-transition: height 0.3s ease-in-out;
+      transition: height 0.3s ease-in-out;
+  }
+ 
+  /**
+  * Selecionar o elemento que está precedente
+  * do tipo com atributo checked, sendo
+  * que o ID comece o accordion
+  * E dentro dele, definimos a altura,
+  * mostrando o conteúdo
+  */
+  [id^=accordion]:checked ~ .accordion-content {
+      height: 100px;
+  }
+  
+  
+ /*######################*/
+
+#menu{
+	width:1000px;
+	height:130px;
+	float:left;
+	margin-left:300px;
+	position:absolute;
+	margin-top:60px;
+	
+}
+#menu ul {
+			width:1000px;			
+			list-style:none;
+			font:80% Tahoma;
+			height:10px;
+		}
+ 
+		#menu ul li { 
+		
+		display: inline;
+		
+
+		}
+ 
+		#menu ul li a {
+			background-color:#EDEDED;
+			color: #333;
+			border-radius:10px;
+			margin-left:20px;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			padding: 4px 11px;
+			float:left;
+			-webkit-transform: perspective(1px) translateZ(0);
+		  transform: perspective(1px) translateZ(0);
+		  box-shadow: 0 0 1px transparent;
+		  position: relative;
+		  -webkit-transition-duration: 0.3s;
+		  transition-duration: 0.3s;
+		  -webkit-transition-property: transform;
+		  transition-property: transform;
+		  transition:0.5s;
+		}
+ 
+		#menu ul li a:hover {
+		 -webkit-transform: translateY(-5px);
+		  transform: translateY(-5px);
+		-webkit-box-shadow: 1px 16px 57px 1px rgba(0,0,0,1);
+-moz-box-shadow: 1px 16px 57px 1px rgba(0,0,0,1);
+box-shadow: 1px 16px 57px 1px rgba(0,0,0,1);
+border-radius:0px;
+		}
+ #nav_menu_mobile{
+	display:none;
+}
+.stellarnav{
+	
+	display:none;
+}

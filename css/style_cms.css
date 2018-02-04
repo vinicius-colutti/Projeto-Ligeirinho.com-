@@ -1,0 +1,2175 @@
+/*ELIMINANDO TODOS OS ESPAÇOS DO ENTRE O SITE E O NAVEGADOR*/
+
+*{
+	margin:0;
+	padding:0;
+
+
+}
+
+body{
+cursor:auto;
+
+}
+/*FORMATAÇÃO DE TAMANHOS DO HEADER*/
+header{
+	
+	width:1200px;
+	height:200px;
+	margin:auto;
+
+}
+/*PRINCIPAL DO CABECALHO*/
+#principal_cabecalho{
+	width:1200px;
+	height:200px;
+	background-color:#B0C4DE;
+	margin:auto;	
+	-webkit-border-top-left-radius: 30px;
+-webkit-border-top-right-radius: 30px;
+-moz-border-radius-topleft: 30px;
+-moz-border-radius-topright: 30px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+	
+
+
+
+}
+
+/*
+
+###############################################################################
+TODA FORMATAÇÃO DO HEADER E DO NAV ESTÁ LOGO ABAIXO, ATÉ O 
+COMENTÁRIO DE FIM.
+##############################################################################
+
+
+
+*/
+#titulo_cms{
+	width:700px;
+	height:100px;
+	float:left;
+	margin-top:50px;
+	margin-left:20px;
+
+
+}
+
+#titulo_cms b{
+	color:#000;
+	font-size:50px;
+	font-family: 'Sarala', sans-serif;
+
+}
+#titulo{
+	color:#000;
+	font-size:35px;
+	font-family: 'Sarala', sans-serif;
+
+
+}
+#logo_cms{
+	width:300px;
+	height:180px;	
+	margin-left:140px;
+	float:left;
+	margin-top:10px;
+	
+}
+
+nav{
+	width:1200px;
+	height:270px;
+	background-color:red;
+	margin:auto;
+
+}
+#principal_nav{
+	width:1200px;
+	height:270px;
+	background-color:#D3D3D3;
+
+
+
+}
+#div_principal_conteudo{
+	width:200px;
+	height:230px;
+	margin-top:20px;
+	margin-left:20px;	
+	float:left;
+
+
+}
+#div_principal_conteudo:hover, #div_principal_fale_conosco:hover, #div_principal_produtos:hover, #div_principal_usuario:hover{
+	opacity:0.7;
+	-webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+
+ -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+	border:solid #000 2px;	
+	
+	
+}
+
+#img_adm_conteudo{
+	margin-top:10px;
+	width:180px;
+	height:180px;
+	margin-left:10px;
+	margin-right:10px;
+	background-image:url(../imagens/conteudo.png);
+
+}
+#txt_adm_conteudo{
+	width:200px;
+	height:30px;
+	
+	margin-top:10px;
+
+}
+#txt_adm_conteudo p{
+	font-family: 'Sarala', sans-serif;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+
+
+}
+#div_principal_fale_conosco{
+	width:200px;
+	height:230px;
+	margin-top:20px;
+	margin-left:20px;
+	
+	float:left;
+
+
+}
+#img_adm_fale_conosco{
+margin-top:10px;
+	width:180px;
+	height:180px;
+	margin-left:10px;
+	margin-right:10px;
+	background-image:url(../imagens/conosco.png);
+
+}
+#txt_adm_fale_conosco{
+	width:200px;
+	height:30px;
+	
+	margin-top:10px;
+
+}
+#txt_adm_fale_conosco p{
+	font-family: 'Sarala', sans-serif;
+	text-align:center;
+	font-size:22px;
+	font-weight:bold;
+
+}
+
+#div_principal_produtos{
+	width:200px;
+	height:230px;
+	margin-top:20px;
+	margin-left:20px;
+	
+	float:left;
+
+}
+#img_adm_produtos{
+margin-top:10px;
+	width:180px;
+	height:180px;
+	margin-left:10px;
+	margin-right:10px;
+	background-image:url(../imagens/produtos.png);
+
+}
+#txt_adm_produtos{
+	width:200px;
+	height:30px;
+	
+	margin-top:10px;
+
+}
+#txt_adm_produtos p{
+	font-family: 'Sarala', sans-serif;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+
+
+}
+#div_principal_usuario{
+	width:200px;
+	height:230px;
+	margin-top:20px;
+	margin-left:20px;	
+	float:left;
+
+
+}
+#img_adm_usuario{
+margin-top:10px;
+	width:180px;
+	height:180px;
+	margin-left:10px;
+	margin-right:10px;
+	background-image:url(../imagens/usuario.png);
+
+
+}
+#txt_adm_usuario{
+	width:200px;
+	height:30px;
+	
+	margin-top:10px;
+
+}
+#txt_adm_usuario p{
+	font-family: 'Sarala', sans-serif;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+
+
+}
+#div_txt_usuario{
+	width:250px;
+	height:30px;	
+	float:left;
+	margin-left:30px;
+	margin-top:20px;
+	
+	
+
+}
+#txt_usuario{
+	color:#000;
+	font-size:22px;
+	font-family: 'Ropa Sans', sans-serif;
+
+}
+#div_logout{
+	width:90px;
+	height:30px;
+	margin-left:190px;
+	margin-top:169px;	
+	float:left;
+	
+}
+#txt_logout{
+	color:#000;
+	font-size:30px;
+	text-align:right;
+	margin-left:20px;
+	font-family: 'Ropa Sans', sans-serif;
+	font-style:none;
+	text-decoration:none;
+
+
+}
+#txt_logout:hover{
+	
+	color:#4682B4;
+	
+}
+
+/*
+####################################################################################
+FIM DA FORMATAÇÃO DO HEADER E DA NAV
+####################################################################################
+
+
+
+*/
+
+
+/*
+############################################
+FORMATAÇÃO DAS SECTIONS DAS PÁGINAS, CADA
+UMA COM DIFERENTES TAMANHOS.
+#############################################
+
+
+*/
+
+#section_home{
+width:1200px;
+min-height:200px;
+height:auto;
+margin:auto;
+
+
+
+}
+#section_fale_conosco{
+	width:1200px;
+	min-height:700px;	
+	margin:auto;
+	background-color:#708090;
+	
+
+}
+#section_usuario{
+	width:1200px;
+	min-height:600px;
+	height:auto;
+	margin:auto;
+	background-color:#708090;
+
+
+
+
+}
+#principal_section_home{
+	width:1000px;
+	height:400px;		
+	margin-left:100px;
+	
+	
+
+}
+
+#section_adm_conteudo_home{
+	width:1200px;
+	min-height:150px;
+	height:auto;
+	margin:auto;
+	background-color:#708090;
+	
+
+
+}
+
+/*
+############################################
+FIM DAS FORMATAÇOES DAS SECTIONS
+#############################################
+
+
+*/
+
+
+/*
+
+###########################
+FOOTER
+###########################
+
+
+
+*/
+footer{
+
+width:1200px;
+height:100px;
+background-color:#B0C4DE;
+margin:auto;
+margin-bottom:20px;
+-webkit-border-bottom-right-radius: 30px;
+-webkit-border-bottom-left-radius: 30px;
+-moz-border-radius-bottomright: 30px;
+-moz-border-radius-bottomleft: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
+
+}
+#div_footer{
+width:1200px;
+height:100px;
+margin:auto;
+-webkit-border-bottom-right-radius: 30px;
+-webkit-border-bottom-left-radius: 30px;
+-moz-border-radius-bottomright: 30px;
+-moz-border-radius-bottomleft: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
+
+}
+#span_footer{
+height:80px;
+width:1200px;
+font-size:20px;
+color:#000;
+font-family:Arial Black;
+font-weight:bold;
+padding-top:10px;
+
+
+}
+#span_footer_bmnv{
+height:80px;
+width:1200px;
+font-size:15px;
+color:#000;
+font-weight:bold;
+margin-top:-28px;
+
+
+
+}
+/*
+############################
+FIM DO FOOTER
+############################
+
+*/
+
+
+/*
+#########################################
+DIVS PRINCIPAIS DE CADASTROS DO CRUD
+#########################################
+
+*/
+
+#principal_cadastro{
+	width:1200px;
+	height:1400px;
+	margin:auto;
+	background-color:#708090;
+
+
+
+}
+
+#principal_cadastro_noticia{
+	width:1200px;
+	height:740px;
+	margin:auto;
+	background-color:#708090;
+
+
+}
+#add_usuario{
+	width:550px;
+	height:450px;	
+	margin:auto;
+	background-color:#708090;
+	position:absolute;
+	margin-top:20px;
+	margin-left:310px;
+	border-radius:20px;
+	border-color:#000;
+   border-width:3px;
+   border-style:dashed;
+   overflow:auto;
+
+}
+#add_noticia{
+
+	width:550px;
+	height:350px;	
+	margin:auto;
+	background-color:#708090;
+	position:absolute;
+	margin-top:20px;
+	margin-left:310px;
+	border-radius:20px;
+	border-color:#000;
+   border-width:3px;
+   border-style:dashed;
+
+}
+
+/*
+######################################
+FIM DOS PRINCIPAIS CADASTROS
+######################################
+
+
+*/
+
+
+/*
+######################################
+FORMATAÇÃ DE LABEL E INPUT SEM ID OU CLASS DEFINIDO
+
+
+*/
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align:right;
+	margin-left:40px;
+	color:#fff;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+input {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width:300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	margin-bottom:10px;
+	height:50px;
+	
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+
+
+.input_user{
+/* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width:300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	margin-bottom:10px;
+	height:50px;
+	
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+
+
+
+
+
+}
+
+.input_user:hover{
+cursor:url(../imagens/aero_unavail.cur), default;
+
+
+}
+/*
+
+#################################
+FIM DOS LABELS E INPUTS
+
+
+*/
+
+#botao_enviar_cadastro{
+margin-left:135px;
+margin-top:10px;
+
+
+}
+
+/*
+
+####################################
+DIVS DE SELECT
+###################################
+
+
+*/
+
+#div_select_usuarios{
+	background-color: rgba(0, 0, 128, 0.5);
+	width:520px;
+	height:300px;	
+	margin:auto;
+	position:absolute;
+	margin-top:500px;
+	margin-left:330px;
+	border-radius:10px;
+	border-color:#000;
+   border-width:3px;
+   border-style:solid;
+   overflow:auto;
+   
+	
+}
+#div_select_noticias{
+	background-color:#B0C4DE;
+	width:650px;	
+	height:300px;
+	overflow:auto;	
+	margin:auto;
+	position:absolute;
+	margin-top:-320px;
+	margin-left:260px;
+	border-radius:10px;
+	border-color:#000;
+   border-width:3px;
+   border-style:solid;
+
+
+
+}
+#table_select{
+width:500px;
+height:300px;
+background-color:#000;
+
+
+}
+/*
+##############################
+FIM DOS SELECTS
+
+
+
+*/
+.td_nome{
+	background-color:#fff;
+	height:40px;
+	font-family:Calibri;
+	color:#008B8B;
+
+
+}
+.td{
+
+	background-color:#fff;
+	width:100px;
+	height:30px;
+	margin-left:50px;
+	
+	
+
+}
+
+#title{
+	font-size:25px;
+	font-family: 'Rubik Mono One', sans-serif;
+	margin-left:70px;
+
+
+}
+#img_excluir{
+	margin-left:10px;
+	text-decoration:none;
+	
+
+}
+#img_alterar{
+	margin-left:40px;
+	text-decoration:none;
+
+}
+
+.links_do_cms{
+text-decoration:none;
+color:#000;
+
+}
+
+
+/* PRINCIPAL DO FALE CONOSCO */
+#principal_fale_conosco{
+	min-width:1200px;
+	height:600px;	
+	background-color:#708090;
+	
+
+
+}
+
+
+/*SELECT DO FORM*/
+#select_form{
+	width:1200px;
+	min-height:200px;
+	height:auto;
+	margin:auto;
+	background-color:green;
+
+
+}
+
+#div_titulos{
+	width:1200px;
+	height:50px;
+	background-color:#000;
+	
+
+}
+
+.titulo{
+	width:114px;
+	height:50px;
+	margin-left:10px;
+	background-color:#fff;
+	float:left;
+
+
+}
+#titulo_sugestoes{
+	width:310px;
+	height:50px;
+	margin-left:10px;
+	background-color:#fff;
+	float:left;
+
+
+}
+
+/*DIV DE SELECIONAR O FALE CONOSCO*/
+#div_select_fale_conosco{
+	min-width:1200px;
+	min-height:100px;
+	width:auto;
+	height:auto;
+	overflow:auto;
+	background-color:orange;
+	margin:auto;
+}
+
+#lbl_selects{
+	width:114px;
+	height:40px;
+	margin-top:20px;
+	background-color:#000;
+	margin-left:10px;
+	float:left;
+	overflow:auto;
+	text-align:left;
+
+
+}
+#txt_sugestoes_adm{
+	margin-left:134px;
+	margin-top:5px;
+	overflow:auto;
+	resize:none;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 50%;
+	height:180px;
+}
+#txt_sugestoes_adm:hover{
+cursor:url(../imagens/aero_unavail.cur), default;
+
+}
+
+/*DIV SEPARATORIA DO FALE CONOSCO*/
+#separatoria{
+	width:1100px;
+	height:2px;
+	background-color:#000;
+	margin-top:100px;
+	margin-left:50px;
+	float:left;
+	position:absolute;
+
+}
+
+#excluir_fale_conosco{
+	width:30px;
+	height:30px;	
+	margin-left:1152px;
+	position:absolute;
+	margin-top:-50px;
+
+}
+#excluir_fale_conosco a{
+	text-decoration:none;
+
+}
+
+#img_delete_fale_conosco{
+	width:30px;
+	height:30px;
+
+
+}
+#nomes_fale_conosco{
+	width:350px;
+	height:700px;
+	background-color: rgba(25, 25, 112, 0.5);
+	overflow:auto;
+	float:left;
+	
+}
+
+
+/*
+##############################
+TODOS OS FORMULÁRIOS ENVIADOS
+##############################
+*/
+#formularios_enviados{
+	width:300px;
+	height:180px;
+	background-color:#4169E1;
+	margin-top:10px;
+	margin-left:15px;
+	overflow:auto;
+	float:left;
+	border-radius:10px;
+	border-color:#000;
+   border-width:1px;
+   border-style:solid;
+	
+}
+#formularios_enviados:hover #div_visualizar_fale_conosco, #formularios_enviados:hover #div_excluir_fale_conosco{
+	
+	opacity:1;
+	
+	
+}
+
+#formularios_enviados:hover{
+	
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+#mostrar_tudo_fale_conosco{
+	width:600px;
+	height:670px;
+	
+	border-color:#fff;
+   border-width:1px;
+   border-style:groove;
+	float:left;
+	margin-left:126px;
+	margin-top:15px;
+	border-radius:20px;
+	-webkit-box-shadow: 9px 2px 14px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 2px 14px -2px rgba(0,0,0,0.75);
+box-shadow: 9px 2px 14px -2px rgba(0,0,0,0.75);
+}
+/*
+##############################
+FIM DOS FORMUALRIOS ENVIADOS
+#############################
+*/
+
+
+.txt_titulo_adm_fale_conosco{
+	text-align:left;
+	margin-left:5px;
+	font-family:Calibri;
+	font-size:20px;
+	
+	
+}
+
+.txt_resultado_adm_fale_conosco{
+	
+	text-align:left;
+	margin-left:-5px;
+	font-family:Calibri;
+	font-size:17px;
+	
+}
+.txt_resultado_adm_fale_conosco_nome{
+	
+	text-align:left;
+	margin-left:-30px;
+	font-family:Calibri;
+	font-size:17px;
+	
+}
+.txt_resultado_adm_fale_conosco_email{
+	
+	text-align:left;
+	margin-left:-30px;
+	font-family:Calibri;
+	font-size:17px;
+	
+}
+
+
+/*VIZU TUDÃO DO FALE CONOSCO*/
+#div_visualizar_fale_conosco{
+	width:50px;
+	height:50px;	
+	margin-top:30px;
+	margin-left:55px;
+	float:left;
+	opacity:0;
+	
+	
+}
+.a_view{
+	width:50px;
+	height:50px;
+	
+}
+.img_view{
+	
+	width:50px;
+	height:50px;
+	
+	
+}
+#div_excluir_fale_conosco{
+	width:50px;
+	height:50px;	
+	margin-top:30px;
+	margin-left:75px;
+	float:left;
+	opacity:0;
+	
+	
+	
+}
+#lbl_title_sugestoes{
+	 display: inline-block;
+    width: 90px;
+    text-align:right;
+	margin-left:218px;
+	color:#fff;
+	font-family: 'Hammersmith One', sans-serif;
+	
+	
+	
+}
+
+
+/* 
+################################
+EXEMPLOS PARA HOVERS UTILIZADOS
+################################
+
+*/
+.example1 {
+				 height: 50px;	
+				 overflow: hidden;
+				 position: relative;
+				 height:40px;
+				}
+				.example1 h3 {
+				 font-size: 3em;
+				 color: limegreen;
+				 position: absolute;
+				 width:100%;
+				 height:100%;
+				 margin: 0;
+				 line-height: 50px;
+				 text-align: center;
+				 /* Starting position */
+				 -moz-transform:translateX(100%);
+				 -webkit-transform:translateX(100%);	
+				 transform:translateX(100%);
+				 /* Apply animation to this element */	
+				 -moz-animation: example1 2s linear infinite;
+				 -webkit-animation: example1 2s linear infinite;
+				 animation: example1 10s linear infinite;
+				}
+				/* Move it (define the animation) */
+				@-moz-keyframes example1 {
+				 0%   { -moz-transform: translateX(100%); }
+				 100% { -moz-transform: translateX(-100%); }
+				}
+				@-webkit-keyframes example1 {
+				 0%   { -webkit-transform: translateX(100%); }
+				 100% { -webkit-transform: translateX(-100%); }
+				}
+				@keyframes example1 {
+				 0%   { 
+				 -moz-transform: translateX(100%); /* Firefox bug fix */
+				 -webkit-transform: translateX(100%); /* Firefox bug fix */
+				 transform: translateX(100%); 		
+				 }
+				 100% { 
+				 -moz-transform: translateX(-100%); /* Firefox bug fix */
+				 -webkit-transform: translateX(-100%); /* Firefox bug fix */
+				 transform: translateX(-100%); 
+				 }
+				}
+				
+/*
+################################
+FIM DOS EXEMPLOS	
+################################
+
+*/
+
+
+
+/*DIV DE STATUS DO SERVIDOR*/				
+#status_servidor{
+	
+	font-size:40px;
+	font-weight:bold;
+	font-family:Calibri;
+	
+	
+}
+
+.center_redirect{	
+	color:#000;
+	font-size:40px;
+	margin-top:200px;
+	font-family:Calibri;
+	
+	
+	
+}
+#div_gif_redirect{
+	width:700px;
+	height:400px;	
+	margin-left:119px;
+	
+	
+	
+}
+
+/* PRINCIPAL DO ADM CONTEUDO HOME*/
+#principal_adm_conteudo_home{
+	width:1200px;
+	height:200px;
+	background-color:#708090;
+	padding-top:50px;
+
+
+
+}
+
+/*
+####################################
+ADM KITS
+####################################
+*/
+#div_adm_kits{
+	width:200px;
+	height:200px;
+	background-image:url(../imagens/fundo_adm_conteudo.png);
+	margin-top:-30px;
+	border-radius:20px;
+	margin-left:50px;
+	float:left;
+
+
+}
+#div_adm_categoria{
+	width:200px;
+	height:200px;
+	background-image:url(../imagens/categoria.png);
+	margin-top:-30px;
+	border-radius:20px;
+	margin-left:50px;
+	float:left;
+	
+	
+	
+}
+#div_adm_produtos{
+	width:200px;
+	height:200px;
+	background-image:url(../imagens/adm_produtos1.png);
+	margin-top:-30px;
+	border-radius:20px;
+	margin-left:50px;
+	float:left;
+	
+	
+	
+}
+#div_adm_estati{
+	
+	width:200px;
+	height:200px;
+	background-image:url(../imagens/estatisticas.png);
+	margin-top:-30px;
+	border-radius:20px;
+	margin-left:50px;
+	float:left;
+}	
+#div_adm_kits:hover{
+	
+	opacity:0.7;
+	
+}
+
+#div_adm_kits img{
+width:225px;
+	height:100px;
+
+}
+/*
+####################################
+FIM ADM KITS
+####################################
+*/
+
+/*
+####################################
+ADM PROMOCOES
+####################################
+*/
+#div_adm_promocoes{
+	width:200px;
+	height:200px;
+	background-image:url(../imagens/fundo_adm_conteudo_pro.png);
+	margin-top:-30px;
+	border-radius:20px;
+	margin-left:18px;
+	float:left;
+
+}
+#div_adm_promocoes:hover{
+	
+	opacity:0.7;
+	
+}
+/*
+####################################
+FIM ADM PROMOCOES
+####################################
+*/
+
+
+/*
+####################################
+ADM CORRIDA
+####################################
+*/
+
+#div_adm_corrida{
+	width:200px;
+	height:200px;
+	background-image:url(../imagens/fundo_adm_conteudo_hc.png);
+	margin-top:-30px;
+	border-radius:20px;
+	margin-left:18px;
+	float:left;
+
+
+
+}
+#div_adm_corrida:hover{
+	
+	opacity:0.7;
+	
+}
+/*
+####################################
+FIM ADM CORRIDA
+####################################
+*/
+
+
+
+/*
+####################################
+ADM EVENTO
+####################################
+*/
+#div_adm_evento{
+width:200px;
+	height:200px;
+	background-image:url(../imagens/fundo_adm_conteudo_d.png);
+	margin-top:-30px;
+	border-radius:20px;
+	margin-left:18px;
+	float:left;
+}
+#div_adm_evento:hover{
+	
+	opacity:0.7;
+	
+}
+/*
+####################################
+FIM ADM EVENTO
+####################################
+*/
+
+/*
+####################################
+ADM NOTICIAS
+####################################
+*/
+#div_adm_noticias{
+
+	width:200px;
+	height:200px;
+	background-image:url(../imagens/fundo_adm_conteudo_n.png);
+	margin-top:-30px;
+	border-radius:20px;
+	margin-left:18px;
+	float:left;
+
+
+}
+#div_adm_noticias:hover{
+	
+	opacity:0.7;
+	
+}
+
+/*
+####################################
+FIM ADM NOTICIAS
+####################################
+*/
+
+
+/*DIV DE ADM CONTEUDO DO TIULO*/
+.div_titulo_adm_conteudo_home{
+	width:190px;
+	height:70px;	
+	margin-left:17px;
+	margin-top:15px;
+	opacity:1;
+	border: 2px solid #fff;
+	
+
+
+}
+
+/*ALGUMAS FORMATAÇÕES UTILIZADA EM LABEL*/
+.lbl_adm_conteudo_home{
+	font-size:20px;
+	text-align:center;
+	color:#000;
+	font-weight:bolder;
+	margin-top:5px;
+	font-family:Calibri;
+	text-decoration:none;
+
+
+}
+
+#lbl_adm_conteudo_home_evento{
+	font-size:19px;
+	text-align:center;
+	color:#000;
+	font-weight:bolder;
+	font-family:Calibri;
+	text-decoration:none;
+
+
+
+}
+
+.lbl_adm_conteudo_home_kits_noticias{
+	font-size:20px;
+	text-align:center;
+	font-family:Calibri;
+	color:#000;
+	font-weight:bolder;
+	margin-top:30px;	
+	text-decoration:none;
+
+
+}
+/*FIM DAS FORMATAÇÕES LABEL*/
+
+
+
+/*
+##########################################
+FORMATAÇÃO DA PAGINA NOTICIAS
+##########################################
+
+
+*/
+#titulo_noticia{
+	width:400px;
+	height:30px;	
+	margin-top:-355px;
+	margin-left:400px;
+	position:absolute;
+	
+}
+
+#titulo_noticia h3{
+	font-size:25px;
+	font-weight:bold;
+	font-family:Calibri;
+	padding-left:38px;
+	
+
+}
+#div_descricao{
+	width:190px;
+	height:70px;	
+	margin-top:20px;
+	margin-left:5px;
+	float:left;
+	font-size:17px;
+	float:left;
+	text-align:left;
+	font-family:Calibri;
+	overflow:auto;
+	border-right:2px #000 solid;
+}
+#div_imagem{
+	width:180px;
+	height:100px;
+	border:solid #000 1px;
+	margin-top:10px;
+	margin-left:5px;
+	float:left;
+
+}
+#div_imagem img{
+	width:180px;
+	height:100px;
+	
+
+}
+
+#div_opc_noticias{
+	width:230px;
+	height:60px;	
+	margin-top:30px;
+	margin-left:5px;
+	float:left;
+	
+
+}
+
+#alterar_noticia{
+	width:50px;
+	height:50px;
+	background-color:#D3D3D3;
+	margin-top:5px;
+	margin-left:5px;
+	border-radius:10px;
+	float:left;
+
+}
+#alterar_noticia img{
+	width:50px;
+	height:50px;
+
+}
+#ativar_noticia{
+	width:50px;
+	height:50px;
+	background-color:#D3D3D3;
+	margin-top:5px;
+	margin-left:5px;
+	border-radius:10px;
+	float:left;
+
+}
+
+#ativar_noticia img{
+	width:50px;
+	height:50px;
+
+}
+#excluir_noticia{
+	width:50px;
+	height:50px;
+	background-color:#D3D3D3;
+	border-radius:10px;
+	margin-top:5px;
+	margin-left:5px;
+	float:left;
+
+}
+
+#excluir_noticia img{
+	width:46px;
+	height:46px;
+	padding-top:2px;
+
+}
+/*
+#####################################
+FIM DA FORMATAÇÃO DA PAG DE NOTICIAS
+#####################################
+
+*/
+
+
+
+/*DIV PRINCIPAL DA PAG REDIRECT*/
+#principal_redirect{
+	width:700px;
+	height:600px;
+	margin:auto;
+
+}
+
+/*SEPARA O CONTEUDO LISTADO*/
+.separar_conteudo_listado{
+	width:610px;
+	height:1px;
+	background-color:#000;
+	float:left;
+	margin-left:7px;
+	margin-top:8px;
+
+
+}
+.produtos_para_promocionar{
+	height:30px;
+	margin-top:10px;
+	margin-bottom:5px;
+	
+}
+
+
+/*
+#######################################
+FORMATAÇÃO DO EVENTO EM DESTAQUE
+#######################################
+
+*/
+#principal_cadastro_evento_destaque{
+	width:1200px;
+	height:1240px;
+	margin:auto;
+	background-color:#708090;
+}
+
+
+#add_evento_destaque{
+	width:550px;
+	height:750px;	
+	margin:auto;
+	background-color:#708090;
+	position:absolute;
+	margin-top:20px;
+	margin-left:310px;
+	border-radius:20px;
+	border-color:#000;
+   border-width:3px;
+   border-style:dashed;
+}   
+
+.textos_inserir{
+	
+	width:300px;
+	height:100px;
+	margin-bottom:5px;
+	margin-left:136px;
+	
+	
+}
+#txt_texto_sobre_evento_destaque{
+	
+	
+	
+	
+	
+}
+
+#div_do_texto_do_evento_destaque{
+	width:190px;
+	height:200px;	
+	position:absolute;
+	
+	
+}
+
+
+#div_select_destaque{
+background-color:#B0C4DE;
+	width:860px;	
+	height:300px;
+	overflow:auto;	
+	margin:auto;
+	position:absolute;
+	margin-top:-320px;
+	margin-left:160px;
+	border-radius:10px;
+	border-color:#000;
+   border-width:3px;
+   border-style:solid;
+}   
+
+.text_texto_destaque{
+	width:390px;
+	height:100px;
+	overflow:auto;
+	margin-left:5px;
+}
+
+#div_descricao_evento_destaque{
+
+	width:405px;
+	height:100px;	
+	margin-top:10px;
+	margin-left:5px;
+	float:left;
+	font-size:17px;
+	float:left;
+	text-align:left;
+	font-family:Calibri;
+	
+	overflow:auto;
+}
+
+.separar_conteudo_listado_destaque{
+	width:820px;
+	height:1px;
+	background-color:#000;
+	float:left;
+	margin-left:7px;
+	margin-top:8px;
+}
+/*
+#############################################
+FIM DA FORMATAÇÃO DO EVENTO EM DESTAQUE
+#############################################
+*/
+
+/*
+#############################################
+FORMATAÇÃO DOS NIVEIS
+#############################################
+*/	
+#separar_select_do_nivel{
+	width:1100px;
+	height:3px;
+	background-color:#000;
+	margin-top:840px;
+	position:absolute;
+	margin-left:50px;
+	border-radius:10px;
+
+
+
+}	
+
+#div_select_niveis{
+background-color: rgba(0, 0, 128, 0.5);
+	width:520px;
+	height:300px;
+	overflow:auto;
+	margin:auto;
+	position:absolute;
+	margin-top:1070px;
+	margin-left:330px;
+	border-radius:10px;
+	border-color:#000;
+   border-width:3px;
+   border-style:solid;
+
+}
+
+#add_nivel{
+	width:550px;
+	height:130px;	
+	margin:auto;
+	background-color:#708090;
+	position:absolute;
+	margin-top:900px;
+	margin-left:310px;
+	border-radius:20px;
+	border-color:#000;
+   border-width:3px;
+   border-style:dashed;
+
+
+}
+
+.niveis_usuarios_cadastro{
+	height:30px;
+	margin-top:10px;
+	margin-bottom:5px;
+	
+}
+
+.nome_nivel{
+	width:350px;
+	height:50px;
+	background-color:#fff;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	
+}
+
+.opc_niveis{
+	width:150px;
+	height:50px;
+	
+	margin-left:10px;
+	float:left;
+	margin-top:10px;
+	
+}
+
+.alterar_nivel{
+	width:50px;
+	height:30px;
+
+	float:left;
+
+}
+.exlcuir_nivel{
+	width:50px;
+	height:30px;
+	float:left;
+	
+	margin-left:40px;
+
+
+}
+
+.img_nivel{
+	width:50px;
+	height:50px;
+
+}
+.separar_niveis{
+	width:490px;
+	height:2px;
+	background-color:#000;
+	margin-top:80px;
+	margin-left:15px;
+
+
+}
+/*
+########################################
+FIM DA FORMATAÇÃO DOS NIVEIS
+########################################
+*/
+
+
+
+
+/**
+  * Definir a largura e centraliza os itens da sanfona
+  */
+  .accordions{
+      width:600px;
+      margin:0 auto;
+      border:1px solid #ccc;
+	  margin-left:10px;
+  }
+  /**
+  * Oculta o input
+  */
+  .accordion-item input{display:none;}
+ 
+  /**
+   * Aqui configura o label
+   * que será parte clicável
+  **/
+  .accordion-item label{
+      display:block;
+      border:1px solid #ccc;
+      background:#e5e5e5;
+      cursor:pointer;
+	  width:600px;
+	  color:#000;
+	  margin-left:-3px;
+	  height:20px;
+	  
+  }
+ 
+  /**
+  * Aqui o elemento que vai o conteúdo.
+  * Define o height:0, para aplicarmos o efeito
+  * colocamos overflow:hidden não mostrar o último item
+  * O transition o tipo de efeito que queremos
+  */
+  .accordion-content{
+      height: 0px;
+      overflow: hidden;
+      -webkit-transition: height 0.3s ease-in-out;
+      -moz-transition: height 0.3s ease-in-out;
+      -o-transition: height 0.3s ease-in-out;
+      -ms-transition: height 0.3s ease-in-out;
+      transition: height 0.3s ease-in-out;
+	  
+  }
+ 
+  /**
+  * Selecionar o elemento que está precedente
+  * do tipo com atributo checked, sendo
+  * que o ID comece o accordion
+  * E dentro dele, definimos a altura,
+  * mostrando o conteúdo
+  */
+  [id^=accordion]:checked ~ .accordion-content {
+      height:280px;
+  }
+
+
+
+/*
+#######################################
+FORMATAÇÃO DA PAGINA DE HISTORIA
+########################################
+*/
+  
+.texto_historia_titulo{
+	width:300px;
+	height:20px;	
+	font-family:Calibri;
+	font-size:15px;	
+	text-align:left;
+	margin-left:5px;
+	line-height:13px;
+
+} 
+
+
+#div_select_historia{
+
+	background-color:#B0C4DE;
+	width:800px;	
+	height:1050px;
+	overflow:scroll;	
+	margin:auto;
+	position:absolute;
+	margin-top:-1100px;
+	margin-left:180px;
+	border-radius:10px;
+	border-color:#000;
+   border-width:3px;
+   border-style:solid; 
+ } 
+ 
+#principal_cadastro_historia{
+	width:1200px;
+	height:2000px;
+	margin:auto;
+	background-color:#708090;
+}	
+
+.img_1_historia{
+width:295px;
+height:200px;
+background-color:red;
+float:left;
+margin-top:10px;
+margin-left:60px;
+border:solid #000 4px;
+
+
+}
+
+.img_1_historia img{
+	width:295px;
+	height:200px;
+
+}
+
+.opc_historia{
+	width:400px;
+	height:70px;	
+	margin-top:230px;		
+	margin-left:180px;
+
+
+}
+
+.excluir_historia{
+	height:70px;
+	width:70px;	
+	margin-left:30px;
+	float:left;
+
+
+
+}
+
+#titulo_historia{
+	width:400px;
+	height:30px;	
+	margin-top:-1160px;
+	margin-left:395px;
+	position:absolute;
+	
+}
+
+#titulo_historia h3{
+	font-size:25px;
+	font-weight:bold;
+	font-family:Calibri;
+	padding-left:38px;
+	
+
+}	
+
+.separar_historia{
+	width:750px;
+	height:3px;	
+	background-color:#000;	
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:10px;
+
+}
+
+.img_historia_icon{
+	width:50px;
+	height:50px;
+
+
+}
+
+
+.edit_img{
+	width:600px;
+	height:400px;
+	background-color:red;
+	position:absolute;
+	z-index:999;
+	margin-left:290px;
+	margin-top:270px;
+	display:none;
+	
+	
+	
+}
+/*
+######################################
+FIM DA FORMATAÇÃO DA PAG DE HISTORIA
+#######################################
+*/
+
+
+/*
+##################################
+FORMATAÇÃO DO SERVER STATUS
+##################################
+*/
+#server_status{
+	
+	width:300px;
+	height:20px;
+	position:absolute;
+	margin-top:-295px;
+	margin-left:4px;
+	
+	
+}
+#txt_sts{
+	
+	color:#000;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:14px;
+	
+	
+}
+
+#txt_online{
+	
+	color:#228B22;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:14px;
+	
+	
+}
+/*
+##################################
+FIM DA FORMATAÇÃO DO SERVER STATUS
+####################################
+
+*/
+
+
+#captcha{
+	
+	margin-left:133px;
+	
+}
+
+#captcha_login{
+	height:50px;
+	
+}
+
+::-webkit-scroll-track{
+background-color:transparent;
+
+}
+
+::-webkit-scrollbar{
+background-color:transparent;
+width:5px;
+
+}
+
+::-webkit-scrollbar-thumb{
+background-color:#A8A8A8;
+width:5px;
+
+}
+
+#add_sub_categoria{
+	width:550px;
+	height:200px;	
+	margin:auto;
+	background-color:#708090;
+	position:absolute;
+	margin-top:20px;
+	margin-left:310px;
+	border-radius:20px;
+	border-color:#000;
+   border-width:3px;
+   border-style:dashed;
+   overflow:auto;
+}   
+
+
+#section_categoria{
+	width:1200px;
+	min-height:1300px;
+	height:auto;
+	margin:auto;
+	background-color:#708090;
+}
+
+#select_sub_cat{
+background-color: rgba(0, 0, 128, 0.5);
+	width:520px;
+	height:300px;
+	overflow:auto;
+	margin:auto;
+	position:absolute;
+	margin-top:250px;
+	margin-left:330px;
+	border-radius:10px;
+	border-color:#000;
+   border-width:3px;
+   border-style:solid;
+
+
+}
+
+#separar_categoria{
+	width:1100px;
+	height:3px;
+	background-color:#000;
+	margin-top:640px;
+	position:absolute;
+	margin-left:50px;
+	border-radius:10px;
+
+
+}
+
+.nome_sub{
+
+	width:150px;
+	height:50px;
+	background-color:#fff;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	
+}
+
+#add_categoria{
+	width:550px;
+	height:200px;	
+	margin:auto;
+	background-color:#708090;
+	position:absolute;
+	margin-top:700px;
+	margin-left:310px;
+	border-radius:20px;
+	border-color:#000;
+   border-width:3px;
+   border-style:dashed;
+   overflow:auto;
+
+
+}	
+
+#div_select_categoria{
+background-color: rgba(0, 0, 128, 0.5);
+	width:540px;
+	height:300px;
+	overflow:auto;
+	margin:auto;
+	position:absolute;
+	margin-top:950px;
+	margin-left:330px;
+	border-radius:10px;
+	border-color:#000;
+   border-width:3px;
+   border-style:solid;
+
+
+}
+
+#add_produtos{
+width:500px;
+	height:400px;	
+	margin:auto;
+	background-color:#708090;
+	position:absolute;
+	margin-top:20px;
+	margin-left:310px;
+	border-radius:20px;
+	border-color:#000;
+   border-width:3px;
+   border-style:dashed;
+   
+
+
+}
+
+#div_select_produtos{
+	
+	background-color:#B0C4DE;
+	width:820px;	
+	height:750px;
+	overflow:auto;	
+	margin:auto;
+	position:absolute;
+	margin-top:500px;
+	margin-left:157px;
+	border-radius:10px;
+	border-color:#000;
+   border-width:3px;
+   border-style:solid;
+	
+}
+
+#div_produto_descricao{
+	width:160px;
+	height:70px;	
+	margin-top:20px;
+	margin-left:5px;
+	float:left;
+	font-size:17px;
+	float:left;
+	text-align:left;
+	font-family:Calibri;
+	overflow:auto;
+	
+	
+}
+
+#div_produto_detalhes{
+	
+	width:190px;
+	height:70px;	
+	margin-top:20px;
+	margin-left:5px;
+	float:left;
+	font-size:17px;
+	float:left;
+	text-align:left;
+	font-family:Calibri;
+	overflow:auto;
+	border-right:2px #000 solid;
+	color:#006400;
+}	
+
+.separar_conteudo_listado_produtos{
+
+	width:785px;
+	height:1px;
+	background-color:#000;
+	float:left;
+	margin-left:7px;
+	margin-top:8px;
+}
+#section_estati{
+	width:1200px;
+	min-height:980px;
+	height:auto;
+	margin:auto;
+	
+}	
+
+#principal_estati{
+	width:800px;
+	height:700px;
+	
+}
+
+.nome_produto_estati{
+	width:200px;
+	height:40px;	
+	position:absolute;
+	margin-left:5px;
+	margin-top:60px;
+	
+	
+}
+.nome_produto_estati p{
+	
+	color:#000;
+	font-family:Calibri;
+	font-size:20px;
+	text-align:left;
+	font-weight:bolder;
+	padding-left:0px;
+	padding-top:10px;
+	
+}
+
+#titulo_estati_produtos{
+	width:600px;
+	height:50px;
+	position:absolute;
+	margin-top:-50px;
+	margin-left:300px;	
+	color:#000;
+	font-size:28px;
+	font-family:Calibri;
+	font-weight:bolder;
+	
+	
+	
+}
+
+
+
+.n_acessos{
+	font-size:15px;
+	color:#000;
+	
+	
+}
+
+
+.estatic_div{
+	width:1200px;
+	height:50px;
+	
+	margin-top:50px;
+	
+	
+	
+	
+}
+
+
+
+.nome_produto_static{
+	
+	color:#2F4F4F;
+	font-size:25px;
+	font-family:Calibri;
+	font-weight:bolder;
+	
+	
+}
+
+.static_bar{	
+	
+	height:30px;
+	background-color:#006400;
+	float:left;
+	position:absolute;
+	margin-left:250px;
+	margin-top:-25px;
+	
+}
+.h2_porcento_produto{
+	color:#fff;
+	font-weight:bold;
+	font-size:17px;
+	text-align:left;
+	font-family:Calibri;
+	margin-top:3px;
+
+
+
+}
